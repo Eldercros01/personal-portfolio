@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,76 +6,58 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #121212;
   color: #e0e0e0;
+  line-height: 1.6;
 }
 
-/* Navbar */
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: linear-gradient(90deg, #f97316, #38bdf8); /* naranja y azul cielo */
+nav#navbar {
+  background: linear-gradient(90deg, #f97316, #38bdf8);
   padding: 1rem 2rem;
-  z-index: 1000;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
 }
 
-#navbar ul {
-  display: flex;
+nav#navbar ul {
   list-style: none;
+  display: flex;
   gap: 2rem;
 }
 
-#navbar a {
-  color: white;
+nav#navbar a {
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
+  color: white;
+  font-weight: bold;
 }
 
-#navbar a:hover,
-#navbar a:focus {
-  color: #fbbf24; /* amarillo para hover */
-  outline: none;
-}
-
-/* Welcome Section */
 #welcome-section {
-  height: 100vh; /* igual altura del viewport */
+  height: 100vh;
+  background: linear-gradient(135deg, #f97316 40%, #38bdf8 90%);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f97316 40%, #38bdf8 90%);
-  text-align: center;
-  padding: 0 1rem;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
-#welcome-section h1 {
-  font-size: 3.5rem;
-  color: #fff;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-}
-
-/* Projects Section */
 #projects {
-  padding: 4rem 2rem 6rem;
+  padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 #projects h2 {
   text-align: center;
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
   color: #f97316;
+  margin-bottom: 2rem;
 }
 
-/* Grid de proyectos */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -84,61 +66,24 @@ body {
 
 .project-tile {
   background-color: #1f2937;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
   padding: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
-.project-tile:hover,
-.project-tile:focus-within {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(255, 152, 0, 0.8);
-}
-
-.project-tile a {
-  color: #fbbf24;
-  text-decoration: none;
-  display: block;
+.project-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 152, 0, 0.6);
 }
 
 .project-tile h3 {
-  font-size: 1.6rem;
+  color: #fbbf24;
   margin-bottom: 0.5rem;
 }
 
 .project-tile p {
   font-size: 1rem;
   color: #d1d5db;
-}
-
-/* Responsive Media Query */
-@media (max-width: 720px) {
-  #welcome-section h1 {
-    font-size: 2.5rem;
-  }
-
-  #navbar ul {
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 420px) {
-  #welcome-section h1 {
-    font-size: 1.8rem;
-  }
-
-  #projects h2 {
-    font-size: 2rem;
-  }
-
-  .project-tile h3 {
-    font-size: 1.2rem;
-  }
-
-  .project-tile p {
-    font-size: 0.9rem;
-  }
 }
 
 #skills {
@@ -148,42 +93,55 @@ body {
 
 #skills h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
   color: #333;
+  margin-bottom: 1rem;
 }
 
 .languages-list {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 600px;
+  gap: 1rem;
+  list-style: none;
 }
 
 .languages-list li {
-  background-color: white;
+  background: white;
+  padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
-  padding: 0.8rem 1.2rem;
+  color: #333;
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  font-size: 1.2rem;
-  color: #222;
-  min-width: 140px;
-  cursor: default;
-  transition: background-color 0.3s ease;
+  gap: 0.5rem;
+  font-size: 1.1rem;
 }
 
-.languages-list li i {
+.languages-list i {
+  font-size: 1.5rem;
+  color: #f97316;
+}
+
+#contact {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #111827;
+}
+
+#contact h2 {
   font-size: 2rem;
-  color: #f39c12; /* color naranja para íconos, puedes cambiarlo */
+  margin-bottom: 1.5rem;
+  color: #38bdf8;
 }
 
-.languages-list li:hover {
-  background-color: #ffeaa7;
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
+
+.contact-links a {
+  color: #fbbf24;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition:
