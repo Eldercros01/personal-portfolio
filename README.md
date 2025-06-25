@@ -47,7 +47,7 @@ Este es el portafolio personal de Eric Montero, diseñado para mostrar proyectos
 
 ## Contacto
 
-- GitHub: [https://github.com/Eldercros01(https://github.com/Eldercros01)
+- GitHub: [https://github.com/Eeic-Montero(https://github.com/Eldercros01)
 - Email: eric.ubri.montero01@gmail.com
 
 ---
