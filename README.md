@@ -1,62 +1,61 @@
-# Portafolio de Eric Montero
+# 🌐 Portafolio Personal – Eric Montero
 
-Este es el portafolio personal de Eric Montero, diseñado para mostrar proyectos destacados, habilidades y enlaces relevantes como GitHub. Está desarrollado con HTML5, CSS3 (Flexbox y Grid) y utiliza iconos de Font Awesome para representar los lenguajes de programación aprendidos.
+¡Hola! Soy **Eric Montero**, desarrollador front-end apasionado por crear interfaces modernas, funcionales y responsivas. Este portafolio es una muestra de mis proyectos destacados, habilidades técnicas y formas de contacto.
 
----
+## 📌 Descripción
 
-## Estructura del proyecto
+Este portafolio fue creado con el objetivo de presentar mis trabajos, tecnologías dominadas y enlaces a plataformas como GitHub, LinkedIn y WhatsApp. Además, implementa interactividad y visualizaciones con tecnologías como **JavaScript**, **React** y **D3.js**.
 
-- `index.html`: archivo principal que contiene la estructura del portafolio.
-- `styles.css`: hoja de estilos para el diseño responsivo y moderno.
-- **Font Awesome**: se integra mediante CDN para los iconos de lenguajes de programación.
+## 🧱 Estructura del Proyecto
 
----
+- `index.html` – Archivo principal con la estructura del sitio.
+- `styles.css` – Estilos personalizados con diseño responsivo usando Flexbox y CSS Grid.
+- `script.js`– Archivo JavaScript opcional para efectos dinámicos o interactividad.
+- **Font Awesome** – CDN para iconos visuales representativos de lenguajes y plataformas.
 
-## Secciones principales
+## 🧩 Secciones Incluidas
 
-- **Navbar fija** en la parte superior con enlaces para navegar por el portafolio.
-- **Welcome Section**: Introducción y bienvenida con altura igual al viewport.
-- **Projects Section**: Lista de proyectos con tarjetas que incluyen título, descripción y enlaces externos.
-- **Lenguajes de programación aprendidos**: Lista de lenguajes con sus respectivos íconos usando Font Awesome.
+- **Navbar** fija para navegación fluida.
+- **Welcome Section** con diseño atractivo a pantalla completa.
+- **Projects**: Galería de proyectos relevantes como:
+  - Choropleth Map
+  - Global Heatmap (D3.js)
+  - Cyclist Scatterplot (D3.js)
+  - US GDP Bar Chart (D3.js)
+  - Markdown Previewer (React)
+  - React Calculator
+- **Skills & Technologies**: Lista interactiva con íconos para cada lenguaje o herramienta.
+- **Contact**: Enlaces directos a Email, LinkedIn y WhatsApp para conectarse fácilmente.
 
----
+## 🚀 Tecnologías Utilizadas
 
-## Tecnologías usadas
+- HTML5 + CSS3 (Flexbox y Grid)
+- JavaScript moderno (ES6+)
+- React.js
+- D3.js (para visualización de datos)
+- Font Awesome (iconografía)
+- Accesibilidad básica y diseño mobile-first
 
-- HTML5
-- CSS3 (Flexbox y Grid para diseño responsivo)
-- Font Awesome para iconos
-- Buenas prácticas de accesibilidad y diseño web responsivo
+## 🔧 Cómo Usar
 
----
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Eric-Montero/personal-portfolio.git
+Abre el archivo index.html en tu navegador.
 
-## Cómo usar
+Personalízalo modificando el HTML o agregando tus propios proyectos.
 
-1. Clona este repositorio.
-2. Abre `index.html` en tu navegador favorito.
-3. Modifica y personaliza el portafolio con tus propios proyectos y habilidades.
+Puedes añadir interacciones con script.js si deseas más dinamismo.
 
----
+📬 Contacto
+📧 Email: eric.ubri.montero01@gmail.com
 
-## Créditos
+💼 LinkedIn: Eric Montero
 
-- Los iconos de lenguajes provienen de [Font Awesome](https://fontawesome.com/).
-- Inspiración y estructura basada en las directrices de FreeCodeCamp.
+💬 WhatsApp: +1 (829) 260-0023
 
----
+💻 GitHub: @Eric-Montero
 
-## Contacto
-
-- GitHub: [https://github.com/Eric-Montero(https://github.com/Eldercros01)
-- Email: eric.ubri.montero01@gmail.com
-
----
-
-## Nota
-
-Recuerda que el portafolio es responsivo y funciona bien en dispositivos móviles y de escritorio gracias a Flexbox, Grid y media queries.
-
----
-
-¡Gracias por visitar mi portafolio!
+📱 Responsividad
+Este portafolio ha sido diseñado con un enfoque responsive, lo que garantiza una experiencia óptima tanto en dispositivos móviles como en pantallas de escritorio.
 
