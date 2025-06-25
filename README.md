@@ -1,61 +1,47 @@
-# 🌐 Portafolio Personal – Eric Montero
+# Eric Montero Portfolio
 
-¡Hola! Soy **Eric Montero**, desarrollador front-end apasionado por crear interfaces modernas, funcionales y responsivas. Este portafolio es una muestra de mis proyectos destacados, habilidades técnicas y formas de contacto.
+Este es el portafolio personal de Eric Montero, diseñado para mostrar proyectos destacados, habilidades y enlaces relevantes como GitHub. Está desarrollado con tecnologías modernas: HTML5, CSS3 (Flexbox y Grid) y JavaScript para carga dinámica de repositorios desde GitHub. También incluye un sistema de cambio de tema oscuro/claro.
 
-## 📌 Descripción
+## Estructura del proyecto
 
-Este portafolio fue creado con el objetivo de presentar mis trabajos, tecnologías dominadas y enlaces a plataformas como GitHub, LinkedIn y WhatsApp. Además, implementa interactividad y visualizaciones con tecnologías como **JavaScript**, **React** y **D3.js**.
+- `index.html`: Archivo principal con la estructura del portafolio y la navegación.
+- `styles.css`: Hoja de estilos para un diseño responsivo, moderno y con temas oscuro y claro.
+- `script.js`: Código JavaScript que obtiene automáticamente los repositorios públicos desde GitHub y los muestra con nombre, descripción, lenguaje y fecha de última actualización. También gestiona el cambio de tema.
 
-## 🧱 Estructura del Proyecto
+## Secciones principales
 
-- `index.html` – Archivo principal con la estructura del sitio.
-- `styles.css` – Estilos personalizados con diseño responsivo usando Flexbox y CSS Grid.
-- `script.js`– Archivo JavaScript opcional para efectos dinámicos o interactividad.
-- **Font Awesome** – CDN para iconos visuales representativos de lenguajes y plataformas.
+- Navbar fija con enlaces a secciones y botón para cambiar tema oscuro/claro.
+- Welcome Section: Presentación y bienvenida.
+- Projects Section: Repositorios cargados automáticamente desde GitHub.
+- Skills & Technologies: Lenguajes y tecnologías con iconos Font Awesome.
+- Contact: Enlaces para contactar vía Email, LinkedIn y WhatsApp.
 
-## 🧩 Secciones Incluidas
+## Tecnologías usadas
 
-- **Navbar** fija para navegación fluida.
-- **Welcome Section** con diseño atractivo a pantalla completa.
-- **Projects**: Galería de proyectos relevantes como:
-  - Choropleth Map
-  - Global Heatmap (D3.js)
-  - Cyclist Scatterplot (D3.js)
-  - US GDP Bar Chart (D3.js)
-  - Markdown Previewer (React)
-  - React Calculator
-- **Skills & Technologies**: Lista interactiva con íconos para cada lenguaje o herramienta.
-- **Contact**: Enlaces directos a Email, LinkedIn y WhatsApp para conectarse fácilmente.
+- HTML5
+- CSS3 (Flexbox y Grid)
+- JavaScript (fetch API, DOM Manipulation)
+- Font Awesome (iconos)
+- Buenas prácticas de accesibilidad y diseño responsivo
 
-## 🚀 Tecnologías Utilizadas
+## Cómo usar
 
-- HTML5 + CSS3 (Flexbox y Grid)
-- JavaScript moderno (ES6+)
-- React.js
-- D3.js (para visualización de datos)
-- Font Awesome (iconografía)
-- Accesibilidad básica y diseño mobile-first
+1. Clona este repositorio.
+2. Abre `index.html` en tu navegador.
+3. Asegúrate de que `styles.css` y `script.js` estén en la misma carpeta.
+4. Verás tu portafolio con tus repositorios GitHub actualizados automáticamente.
+5. Usa el botón en la barra de navegación para alternar entre tema oscuro y claro.
 
-## 🔧 Cómo Usar
+## Créditos
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/Eric-Montero/personal-portfolio.git
-Abre el archivo index.html en tu navegador.
+- Iconos obtenidos de [Font Awesome](https://fontawesome.com/).
+- Inspiración y estructura basada en las directrices de FreeCodeCamp.
 
-Personalízalo modificando el HTML o agregando tus propios proyectos.
+## Contacto
 
-Puedes añadir interacciones con script.js si deseas más dinamismo.
+- GitHub: [https://github.com/Eric-Montero](https://github.com/Eric-Montero)
+- Email: eric.ubri.montero01@gmail.com
 
-📬 Contacto
-📧 Email: eric.ubri.montero01@gmail.com
+---
 
-💼 LinkedIn: Eric Montero
-
-💬 WhatsApp: +1 (829) 260-0023
-
-💻 GitHub: @Eric-Montero
-
-📱 Responsividad
-Este portafolio ha sido diseñado con un enfoque responsive, lo que garantiza una experiencia óptima tanto en dispositivos móviles como en pantallas de escritorio.
-
+¡Gracias por visitar mi portafolio!

@@ -5,16 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Eric Montero Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
 </head>
-<body>
+<body class="dark-mode">
   <nav id="navbar">
     <ul>
       <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
       <li><a href="#projects" class="nav-link">Projects</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#contact" class="nav-link">Contact</a></li>
-      <li><a href="https://github.com/Eric-Montero" id="profile-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li>
+        <a
+          href="https://github.com/Eric-Montero"
+          id="profile-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </li>
+      <li>
+        <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+          <i class="fas fa-moon"></i>
+        </button>
+      </li>
     </ul>
   </nav>
 
@@ -24,44 +40,8 @@
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
-      <!-- Agregados nuevos proyectos -->
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/choropleth-map" target="_blank">
-          <h3>Choropleth Map</h3>
-          <p>Mapa codificado por color de condados de EE.UU. basado en educación.</p>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/Heatmap-Project" target="_blank">
-          <h3>Heatmap Global Temperatures</h3>
-          <p>Mapa de calor de temperaturas mensuales globales (1753-2015).</p>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/scatterplot-project" target="_blank">
-          <h3>Cyclist Scatterplot</h3>
-          <p>Rendimiento de ciclistas y dopaje visualizados con D3.js.</p>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/D3.js-Bar-Chart-US-GDP-Visualization" target="_blank">
-          <h3>US GDP Bar Chart</h3>
-          <p>Gráfico de barras del PIB de EE.UU. con D3.js.</p>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/markdown-previewer" target="_blank">
-          <h3>Markdown Previewer</h3>
-          <p>Editor en vivo de Markdown en React.</p>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a href="https://github.com/Eric-Montero/calculadora-js" target="_blank">
-          <h3>React Calculator</h3>
-          <p>Calculadora con React basada en los retos de FreeCodeCamp.</p>
-        </a>
-      </div>
+    <div id="repos-container" class="projects-grid">
+      <!-- Repositorios se cargan aquí -->
     </div>
   </section>
 
@@ -83,13 +63,20 @@
   <section id="contact">
     <h2>Contact</h2>
     <div class="contact-links">
-      <a href="mailto:eric.ubri.montero01@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-      <a href="https://www.linkedin.com/in/eric-montero-1893a1236" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://wa.me/18292600023" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="mailto:eric.ubri.montero01@gmail.com"
+        ><i class="fas fa-envelope"></i> Email</a
+      >
+      <a
+        href="https://www.linkedin.com/in/eric-montero-1893a1236"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i> LinkedIn</a
+      >
+      <a href="https://wa.me/18292600023" target="_blank"
+        ><i class="fab fa-whatsapp"></i> WhatsApp</a
+      >
     </div>
   </section>
 
   <script src="script.js"></script>
-
 </body>
 </html>
