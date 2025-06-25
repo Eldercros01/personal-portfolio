@@ -1,4 +1,4 @@
-
+/* General reset */
 * {
   margin: 0;
   padding: 0;
@@ -144,4 +144,39 @@ nav#navbar a {
   color: #fbbf24;
   font-size: 1.2rem;
   text-decoration: none;
-  transition:
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #fff;
+}
+ body.light-theme {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+body.light-theme #navbar {
+  background: linear-gradient(90deg, #38bdf8, #f97316);
+}
+
+body.light-theme .project-tile {
+  background-color: #ffffff;
+  color: #111;
+}
+
+body.light-theme #skills {
+  background: linear-gradient(90deg, #38bdf8, #f97316);
+}
+
+body.light-theme .languages-list li {
+  background: #f3f4f6;
+  color: #222;
+}
+
+body.light-theme #contact {
+  background-color: #f9fafb;
+}
+
+body.light-theme .contact-links a {
+  color: #f97316;
+}
